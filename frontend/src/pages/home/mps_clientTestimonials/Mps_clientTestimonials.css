@@ -1,0 +1,121 @@
+#mps_clientTestimonials .mp_clientTestimonials
+{
+    background-color: #F7F7F7;
+    min-height: 700px;
+    padding: 0 20px 20px;
+    margin-top: 20px;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials h3
+{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    min-height: 48px;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials h3::after
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    bottom: -25px;
+    left: 48%;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials .testimonials
+{
+    margin-top: 40px;
+    --bs-gutter-x: 0;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial
+{   
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #mps_clientTestimonials .mp_clientTestimonials 
+    {
+        padding: 0 150px 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #mps_clientTestimonials .mp_clientTestimonials .testimonials 
+    {
+        margin-top: 75px;
+    }
+
+    #mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial
+    {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    #mps_clientTestimonials .mp_clientTestimonials .testimonials 
+    {
+        --bs-gutter-x: 4.2rem;
+    }
+
+    #mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial 
+    {
+        padding: 0 3px;
+    }
+}
+
+@media only screen and (min-width: 1400px)
+{
+    #mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial 
+    {
+        padding: 0 33px;
+    }
+}
+
+#mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial .stars
+{
+    background-image: url("/public/images/icons/icon-stars-frame.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 26px;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial p
+{
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 4%;
+    margin-top: 30px;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial span
+{
+    text-decoration: none;
+    letter-spacing: 2%;
+    display: block;
+    line-height: 27px;
+    color: #2A2A2A;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials .clients
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#mps_clientTestimonials .mp_clientTestimonials .clients img 
+{
+    width: 100%;
+    height: auto;
+}

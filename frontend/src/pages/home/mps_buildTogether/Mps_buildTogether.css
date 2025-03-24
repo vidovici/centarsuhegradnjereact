@@ -1,0 +1,119 @@
+#mps_buildTogether .mp_buildTogether
+{
+    background-color: #F7F7F7;
+    min-height: auto;
+    padding: 30px 20px 10px;
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    #mps_buildTogether .mp_buildTogether
+    {
+        padding: 70px 150px 10px;
+    }
+}
+
+#mps_buildTogether .mp_buildTogether .leftSide
+{
+    background-color: #F7F7F7;
+}
+
+#mps_buildTogether .mp_buildTogether .leftSide .content
+{
+    padding-right: 30px;
+    min-height: auto;
+    margin-bottom: 40px;
+}
+
+#mps_buildTogether .mp_buildTogether .leftSide .content h3
+{
+    font-size: 40px;
+    position: relative;
+    color: #2A2A2A;
+    min-height: auto;
+}
+
+#mps_buildTogether .mp_buildTogether .leftSide .content h3::after
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    bottom: -30px;
+    left: 0px;
+}
+
+#mps_buildTogether .mp_buildTogether .leftSide .content p
+{
+    margin-top: 60px;
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 4%;
+    line-height: 27px;
+}
+
+#mps_buildTogether .mp_buildTogether .leftSide .content a 
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 10%;
+    display: inline-block;
+    line-height: 47px;
+    text-align: center;
+    border: 4px solid #FFB400;
+    border-radius: 5px;
+    color: #FFB400;
+    width: 230px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide
+{
+    background-color: #fff;
+    min-height: 455px;
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide .itemWrapper
+{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide button
+{
+    border-radius: 0;
+    font-size: 16px;
+    letter-spacing: 4%;
+    color: #000;
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide button:focus
+{
+    box-shadow: none;
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide button:not(.collapsed) 
+{
+    background-color: #fff;
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide button::after
+{
+    background-image: url("/public/images/icons/icon-plus.png");
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide button:not(.collapsed)::after
+{
+    background-image: url("/public/images/icons/icon-minus.png");
+}
+
+#mps_buildTogether .mp_buildTogether .rightSide .text
+{
+    font-size: 15px;
+    letter-spacing: 4%;
+    color: #666666;
+}

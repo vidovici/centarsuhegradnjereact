@@ -1,0 +1,137 @@
+#mps_project .mp_project
+{
+    min-height: 730px;
+    background-color: #F7F7F7;
+}
+
+#mps_project .mp_project .leftSide
+{
+    background-image: url("/public/images/skela.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 730px;
+}
+
+#mps_project .mp_project .rightSide .content
+{
+    padding: 80px 10px 60px 20px;
+    min-height: 600px;
+}
+
+#mps_project .mp_project .rightSide .content h3
+{
+    min-height: 48px;
+    font-size: 40px;
+    position: relative;
+}
+
+#mps_project .mp_project .rightSide .content h3::after
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    bottom: -25px;
+    left: 0px;
+}
+
+#mps_project .mp_project .rightSide .content .contentWrapper
+{
+    margin-top: 73px;
+    min-height: 329px;
+}
+
+#mps_project .mp_project .rightSide .content .contentWrapper .contentLeft
+{
+    padding-right: 10px;
+}
+
+#mps_project .mp_project .rightSide .content .contentWrapper .contentRight
+{
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #mps_project .mp_project .rightSide .content 
+    {
+        padding: 80px 50px 60px 100px;
+    }
+
+    #mps_project .mp_project .rightSide .content .contentWrapper .contentLeft 
+    {
+        padding-right: 70px;
+    }
+
+    #mps_project .mp_project .rightSide .content .contentWrapper .contentRight 
+    {
+        padding-right: 70px;
+    }
+}
+
+#mps_project .mp_project .rightSide .content .contentWrapper p
+{
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 4%;
+    line-height: 27px;
+}
+
+#mps_project .mp_project .rightSide .content .contentWrapper .contentRight a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 47px;
+    text-align: center;
+    border: 4px solid #2A2A2A;
+    border-radius: 5px;
+    color: #2A2A2A;
+    background-color: #F7F7F7;
+    width: 210px;
+    font-size: 16px;
+    margin-top: 50px;
+    letter-spacing: 10%;
+}
+
+
+#mps_project .mp_project .rightSide .panels .leftPanel
+{
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+    background-color: #FFB400;
+    color: #000;
+    min-height: 130px;
+}
+
+#mps_project .mp_project .rightSide .panels .rightPanel
+{
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+    background-color: #2A2A2A;
+    color: #fff;
+    min-height: 130px;
+}
+
+#mps_project .mp_project .rightSide .panels .number
+{
+    display: block;
+    font-size: 40px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+#mps_project .mp_project .rightSide .panels .text
+{
+    display: block;
+    font-size: 12px;
+    width: 100%;
+    text-transform: uppercase;
+}

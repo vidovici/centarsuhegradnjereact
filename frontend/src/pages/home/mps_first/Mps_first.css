@@ -1,0 +1,130 @@
+#mps_first .mp_first .leftSideWrapper
+{
+    background: url("/public/images/bager.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#mps_first .mp_first .leftSide 
+{
+    padding: 100px 50px 50px 24px;
+    height: 100%;
+    background-color: #1F1F1F;
+    opacity: 85%;
+}
+
+#mps_first .mp_first .leftSide h1 
+{
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    padding-left: 30px;
+}
+
+#mps_first .mp_first .leftSide h1::before 
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 7px;
+    height: 1.2em;
+    top: 0px;
+    left: 0px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #mps_first .mp_first .leftSide 
+    {
+        padding: 100px 50px 50px 60px;
+    }
+
+    #mps_first .mp_first .leftSide h1 
+    {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    #mps_first .mp_first .leftSide
+    {
+        padding: 100px 50px 50px 150px;
+    }
+}
+
+#mps_first .mp_first .leftSide p 
+{
+    font-size: 22px;
+    color: #fff;
+}
+
+#mps_first .mp_first .leftSide a 
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 10%;
+    background-color: #FFB400;
+    line-height: 55px;
+    width: 230px;
+    display: block;    
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#mps_first .mp_first .rightSide 
+{
+    padding: 30px 10px 10px 20px;
+    background-color: #FFB400;
+    min-height: 500px;
+}
+
+#mps_first .mp_first .rightSide .servicesWrapper
+{
+    padding-left: 82px;
+    min-height: 125px;
+}
+
+#mps_first .mp_first .rightSide .iconSiteManagement {
+    background-image: url("/public/images/icons/icon_site_management.png");
+    background-position: left top 10px;
+    background-repeat: no-repeat;
+}
+
+#mps_first .mp_first .rightSide .iconBuildingConstruction {
+    background-image: url("/public/images/icons/icon_building_construction.png");
+    background-position: left top 10px;
+    background-repeat: no-repeat;
+}
+
+#mps_first .mp_first .rightSide .iconFoundationWork {
+    background-image: url("/public/images/icons/icon_foundation_work.png");
+    background-position: left top 10px;
+    background-repeat: no-repeat;
+}
+
+#mps_first .mp_first .rightSide h3 
+{
+    color: #2A2A2A;
+    font-size: 32px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+#mps_first .mp_first .rightSide h5 
+{
+    color: #2A2A2A;
+    font-size: 16px;
+}
+
+#mps_first .mp_first .rightSide p
+{
+    color: #fff;
+    font-size: 15px;
+}

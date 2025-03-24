@@ -1,0 +1,26 @@
+.header 
+{
+    background-color: #fff;
+    width: 100%;
+}
+
+.header button
+{
+    margin-left: auto;
+}
+
+header .logo
+{   
+    display: inline-block;
+    line-height: 75px;
+    font-size: 23px;
+    height: 85px;
+    color: #000;
+}
+
+header li a.navigation
+{
+    color: #000;
+    font-size: 14px;
+    opacity: 1;
+}
