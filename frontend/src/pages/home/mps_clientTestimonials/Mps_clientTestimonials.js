@@ -1,5 +1,6 @@
 import React from "react";
 import './Mps_clientTestimonials.css';
+import Testimonial from "../../../shared/testimonial/Testimonial";
 
 const Mps_clientTestimonials = () => {
     return(
@@ -9,29 +10,17 @@ const Mps_clientTestimonials = () => {
                     <h3 class="fontRubikBold">Client Testimonials</h3>
                     <div class="row testimonials">
                         <div class="col-lg-4">
-                            <div class="testimonial">
-                                <div class="stars"></div>
-                                <p class="fontOpenSansRegular">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed faucibus nullam.”</p>
-                                <span class="fontRubikMedium">John Smith</span>
-                            </div>
+                            <Testimonial starsNumber="3" author="Bojan Križaj" testimonial="Bojan Križaj dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed Bojan Križaj." />
                         </div>
                         <div class="col-lg-4">
-                            <div class="testimonial">
-                                <div class="stars"></div>
-                                <p class="fontOpenSansRegular">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed faucibus nullam.”</p>
-                                <span class="fontRubikMedium">John Smith</span>
-                            </div>
+                            <Testimonial starsNumber="4" author="Jure Franko" testimonial="Jure Franko dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed Bojan Križaj." />
                         </div>
                         <div class="col-lg-4">
-                            <div class="testimonial">
-                                <div class="stars"></div>
-                                <p class="fontOpenSansRegular">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed faucibus nullam.”</p>
-                                <span class="fontRubikMedium">John Smith</span>
-                            </div>
+                            <Testimonial starsNumber="5" author="Boris Strel" testimonial="Boris Strel dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed Bojan Križaj." />
                         </div>
                     </div>
                     <div class="clients">
-                        <img src="images/clients.png" />
+                        <img src="images/clients.png" alt="clients" />
                     </div>
                 </div>
             </div>

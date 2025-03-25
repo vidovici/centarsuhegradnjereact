@@ -1,0 +1,42 @@
+#pps_projectInMind .pp_projectInMind
+{
+    margin-top: 40px;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #FFB400;
+}
+
+#pps_projectInMind .pp_projectInMind h2
+{
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+@media only screen and (min-width: 400px)
+{
+    #pps_projectInMind .pp_projectInMind h2
+    {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    #pps_projectInMind .pp_projectInMind h2
+    {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #pps_projectInMind .pp_projectInMind h2
+    {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}

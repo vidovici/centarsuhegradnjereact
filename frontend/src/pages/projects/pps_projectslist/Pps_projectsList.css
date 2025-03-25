@@ -1,0 +1,89 @@
+#pps_projectsList .pp_projectsList
+{
+    background-color: #f7f7f7;
+    min-height: auto;
+    padding: 55px 10px 40px 20px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #pps_projectsList .pp_projectsList 
+    {
+        padding: 55px 150px 10px;
+    }
+}
+
+#pps_projectsList .pp_projectsList .projects
+{
+    --bs-gutter-x: 4.2rem;
+}
+
+#pps_projectsList .pp_projectsList .projects .project
+{
+    margin-top: 20px;
+}
+
+#pps_projectsList .pp_projectsList .projects .project .projectContent
+{
+    border: 1px solid #666666;
+    margin-top: 20px;
+    padding: 40px 20px 20px 20px;
+
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #pps_projectsList .pp_projectsList .projects .project 
+    {
+        padding: 0 10px;
+    }
+
+    #pps_projectsList .pp_projectsList .projects .project .projectContent 
+    {
+        padding: 40px 10px 20px 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    #pps_projectsList .pp_projectsList .projects .project 
+    {
+        padding: 0 33px;
+    }
+
+    #pps_projectsList .pp_projectsList .projects .project .projectContent 
+    {
+        padding: 40px 20px 20px 20px;
+    }
+}
+
+#pps_projectsList .pp_projectsList .projects .project .projectContent h5
+{
+    font-size: 15px;
+    color: #2A2A2A;
+    letter-spacing: 10%;
+
+}
+
+#pps_projectsList .pp_projectsList .projects .project .projectContent p
+{
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 4%;
+    margin-top: 30px;
+}
+
+#pps_projectsList .pp_projectsList .projects .project .projectContent a 
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 10%;
+    display: block;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid #666666;
+    color: #666666;
+    width: 138px;
+    font-size: 11px;
+    margin-top: 70px;
+}

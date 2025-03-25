@@ -1,17 +1,17 @@
 import React from "react";
 import './Testimonial.css';
-import Stars from "./stars/Stars";
+import Stars from "../stars/Stars";
 
-const Testimonial = (starsNumber, testimonial, author) => {
+const Testimonial = ({starsNumber, testimonial, author}) => {
 
     return(
 
-        <div>
-            <h1>Testimonial components</h1>
+        <div class="testimonial">
             <Stars number={starsNumber} />
             <p class="fontOpenSansRegular">“{testimonial}”</p>
             <span class="fontRubikMedium">{author}</span>
         </div>
     );
 };
+
 export default Testimonial;

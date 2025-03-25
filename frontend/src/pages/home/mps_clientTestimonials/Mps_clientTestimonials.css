@@ -81,11 +81,8 @@
 }
 
 #mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial .stars
-{
-    background-image: url("/public/images/icons/icon-stars-frame.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 26px;
+{    
+    text-align: center;
 }
 
 #mps_clientTestimonials .mp_clientTestimonials .testimonials .testimonial p

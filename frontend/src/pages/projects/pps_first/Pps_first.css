@@ -1,0 +1,65 @@
+#pps_first .pp_first .leftSideWrapper
+{
+    background: url("/public/images/worker.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#pps_first .pp_first .leftSide
+{
+    padding: 100px 50px 50px 24px;
+    height: 100%;
+    background-color: #1F1F1F;
+    opacity: 85%;
+}
+
+#pps_first .pp_first .leftSide h1
+{
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    padding-left: 30px;
+    min-height: 154px;
+}
+
+#pps_first .pp_first .leftSide h1::before 
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 7px;
+    height: 154px;
+    top: 0px;
+    left: 0px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #pps_first .pp_first .leftSide 
+    {
+        padding: 100px 50px 50px 60px;
+    }
+
+    #pps_first .pp_first .leftSide h1 
+    {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    #pps_first .pp_first .leftSide
+    {
+        padding: 100px 50px 50px 150px;
+    }
+}
+
+#pps_first .pp_first .leftSide p 
+{
+    font-size: 22px;
+    color: #fff;
+    max-width: 700px;
+}
