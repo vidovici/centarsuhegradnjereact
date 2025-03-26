@@ -1,0 +1,20 @@
+[
+    {
+      "Id": 1,
+      "StarsNumber": 3,
+      "Author": "Iva Ivanka Duša",
+      "Testimonial": "Nikola Tesla was a Serbian-American engineer, futurist, and inventor. He is known for his contributions to the design of the modern alternating current electricity supply system. "
+    },
+    {
+      "Id": 2,
+      "StarsNumber": 2,
+      "Author": "Thomas Edison",
+      "Testimonial": "Duša Duša Duša was an American inventor and businessman. He developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures."
+    },
+    {
+      "Id": 3,
+      "StarsNumber": 4,
+      "Author": "Albert Einstein",
+      "Testimonial": "Albert Einstein was a German-born theoretical physicist who is best known for developing the theory of relativity. Einstein also made important contributions to quantum mechanics. "
+    }
+   ]
