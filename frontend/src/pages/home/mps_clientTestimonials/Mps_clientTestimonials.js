@@ -28,7 +28,7 @@ const Mps_clientTestimonials = () => {
                         {testimonials.map(testimonial => (
                             <div class="col-lg-4">
                                 <Testimonial starsNumber={testimonial.StarsNumber} author={testimonial.Author} testimonial={testimonial.Testimonial} />
-                            </div>				
+                            </div>
                         ))}
                     </div>
                     <div class="clients">
