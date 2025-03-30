@@ -19,21 +19,19 @@ const Mps_latestProjects = () => {
 
     const firstThreeProjects = projects.slice(0, 3);
 
-    //console.log(projects);
-
     return(
         <section id="mps_latestProjects">
-            <div class="container">
-                <div class="mx-0 mp_latestProjects">
-                    <h3 class="fontRubikBold">Latest Projects</h3>
-                    <div class="row projects">
+            <div className="container">
+                <div className="mx-0 mp_latestProjects">
+                    <h3 className="fontRubikBold">Latest Projects</h3>
+                    <div className="row projects">
                         {firstThreeProjects.map((project) => (
-                            <ProjectCard id={project.Id} projectTitle={project.Title} imageFileName={project.TitleImage} imageAlt={project.Title} projectText={project.ShortDescription} />
+                            <ProjectCard key={project.Id} id={project.Id} projectTitle={project.Title.replace("[#Id]", project.Id)} imageFileName={project.TitleImage} imageAlt={project.Title.replace("[#Id]", project.Id)} projectText={project.ShortDescription.replace("[#Id]", project.Id)} />
                         ))}
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col buttonWrapper">
-                            <a href="/projects" class="fontRubikSemiBold viewAll">View all</a>
+                    <div className="row justify-content-center">
+                        <div className="col buttonWrapper">
+                            <a href="/projects" className="fontRubikSemiBold viewAll">View all</a>
                         </div>
                     </div>
                 </div>

@@ -6,10 +6,10 @@ const Testimonial = ({starsNumber, testimonial, author}) => {
 
     return(
 
-        <div class="testimonial">
+        <div className="testimonial">
             <Stars number={starsNumber} />
-            <p class="fontOpenSansRegular">“{testimonial}”</p>
-            <span class="fontRubikMedium">{author}</span>
+            <p className="fontOpenSansRegular">“{testimonial}”</p>
+            <span className="fontRubikMedium">{author}</span>
         </div>
     );
 };

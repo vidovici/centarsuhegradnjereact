@@ -1,0 +1,94 @@
+#spps_first .spp_first
+{
+    background: url("/public/images/project14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#spps_first .spp_first .leftSide
+{
+    padding: 100px 50px 0 24px;
+    background-color: #1F1F1F;
+    opacity: 85%;
+}
+
+#spps_first .spp_first .leftSide h1
+{
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    padding-left: 30px;
+}
+
+#spps_first .spp_first .leftSide h1::before 
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 7px;
+    height: 1.2em;
+    top: 0px;
+    left: 0px;
+}
+
+@media only screen and (min-width: 768px)
+{
+    #spps_first .spp_first .leftSide
+    {
+        padding: 100px 50px 0 60px;
+    }
+
+    #spps_first .spp_first .leftSide h1
+    {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #spps_first .spp_first .leftSide 
+    {
+        padding: 100px 50px 50px 150px;
+    }
+}
+
+#spps_first .spp_first .leftSide p 
+{
+    font-size: 22px;
+    color: #fff;
+    max-width: 700px;
+}
+
+#spps_first .spp_first .rightSide
+{
+    padding: 0 50px 30px 24px;
+    background-color: #1F1F1F;
+    opacity: 85%;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #spps_first .spp_first .rightSide 
+    {
+        padding: 0 50px 30px 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #spps_first .spp_first .rightSide 
+    {
+        padding: 100px 50px 50px 24px;
+    }
+}
+
+#spps_first .spp_first .rightSide p
+{
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+
+}

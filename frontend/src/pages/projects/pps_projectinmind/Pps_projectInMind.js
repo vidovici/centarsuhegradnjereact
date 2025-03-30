@@ -6,9 +6,9 @@ const Pps_projectInMind = () => {
     return(
     
         <section id="pps_projectInMind">
-            <div class="container">
-                <div class="mx-0 pp_projectInMind">
-                    <h2 class="fontRubikBold">Have a Project in Mind?<br />Let’s Get Building!</h2>
+            <div className="container">
+                <div className="mx-0 pp_projectInMind">
+                    <h2 className="fontRubikBold">Have a Project in Mind?<br />Let’s Get Building!</h2>
                 </div>
             </div>
         </section>

@@ -5,6 +5,7 @@ import Footer from "./shared/footer/Footer";
 import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Project from "./pages/projects/Project";
+import Contact from "./pages/contact/Contact";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -12,11 +13,12 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Routes>
-            <Route index element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/projects/:id" element={<Project />} />
-        </Routes>
+          <Routes>
+              <Route index element={<Home />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/projects/:id" element={<Project />} />
+              <Route path="/contact" element={<Contact />} />
+          </Routes>
         <Footer />
       </div>
     </Router>

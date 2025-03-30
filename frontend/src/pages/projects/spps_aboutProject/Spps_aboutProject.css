@@ -1,0 +1,112 @@
+#spps_aboutProject .spp_aboutProject
+{
+    background-color: #fff;
+    min-height: 500px;
+    padding: 55px 10px 30px 20px;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #spps_aboutProject .spp_aboutProject
+    {
+        padding: 70px 60px 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #spps_aboutProject .spp_aboutProject
+    {
+        padding: 70px 60px 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    #spps_aboutProject .spp_aboutProject
+    {
+        padding: 100px 150px 40px;
+    }
+}
+
+#spps_aboutProject .spp_aboutProject .leftSide h3
+{
+    min-height: 48px;
+    font-size: 40px;
+    position: relative;
+}
+
+#spps_aboutProject .spp_aboutProject .leftSide h3::after
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    bottom: -25px;
+    left: 0px;
+}
+
+#spps_aboutProject .spp_aboutProject .leftSide p
+{
+    margin-top: 50px;
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 4%;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+#spps_aboutProject .spp_aboutProject .rightSide img 
+{
+    width: 100%;
+    height: auto;
+}
+
+#spps_aboutProject .spp_aboutProject .projectLargeImage
+{
+    margin: 30px 0 30px 0;
+    padding: 0 12px;
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #spps_aboutProject .spp_aboutProject .projectLargeImage
+    {
+        margin: 30px 0 50px 0;
+    }
+}
+
+#spps_aboutProject .spp_aboutProject .projectLargeImage img
+{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #spps_aboutProject .spp_aboutProject .leftPanel 
+    {
+        padding-right: 50px;
+    }
+}
+
+#spps_aboutProject .spp_aboutProject .leftPanel img
+{
+    width: 100%;
+    height: auto;
+}
+
+#spps_aboutProject .spp_aboutProject .rightPanel
+{
+
+}
+
+#spps_aboutProject .spp_aboutProject .rightPanel p
+{
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 4%;
+    line-height: 27px;
+}

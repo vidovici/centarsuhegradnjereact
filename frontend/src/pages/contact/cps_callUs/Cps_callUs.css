@@ -1,0 +1,53 @@
+#cps_callUs .cp_callUs
+{
+    min-height: 135px;
+    background-color: #fff;
+    padding: 10px 40px 10px 40px;
+}
+
+@media only screen and (min-width: 992px) 
+{
+    #cps_callUs .cp_callUs
+    {
+        padding: 10px 20px 10px 100px;
+    }
+}
+
+#cps_callUs .cp_callUs .rightSide
+{
+    text-align: center;
+}
+
+#cps_callUs .cp_callUs h2 
+{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 44px;
+    color: #FFB400;
+    width: 100%;
+    text-align: left;
+}
+
+#cps_callUs .cp_callUs p 
+{
+    font-size: 28px;
+    color: #2A2A2A;
+}
+
+
+#cps_callUs .cp_callUs a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4%;
+    display: inline-block;
+    line-height: 47px;
+    text-align: center;
+    border: 4px solid #FFB400;
+    border-radius: 5px;
+    color: #FFB400;
+    background-color: #fff;
+    width: 230px;
+    font-size: 16px;
+    height: 55px;
+}

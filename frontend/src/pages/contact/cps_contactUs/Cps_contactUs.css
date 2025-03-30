@@ -1,0 +1,169 @@
+#cps_contactUs .cp_contactUs
+{
+	background-color: #F7F7F7;
+    padding: 20px 0 0 0;
+    min-height: 500px;
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) 
+{
+    #cps_contactUs .cp_contactUs
+    {
+        padding: 20px 60px 0 60px;
+    }    
+}
+
+#cps_contactUs .cp_contactUs .leftSide
+{
+	padding: 0;
+    min-height: 500px;
+	
+}
+
+@media only screen and (min-width: 992px)
+{
+    #cps_contactUs .cp_contactUs .leftSide 
+    {
+        padding: 0 60px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1400px) 
+{
+    #cps_contactUs .cp_contactUs .leftSide
+    {
+        padding: 0 60px 0 40px;
+    }
+}
+
+#cps_contactUs .cp_contactUs .leftSide h4 
+{
+    position: relative;
+    font-size: 40px;
+    color: #2A2A2A;
+    margin-bottom: 70px;
+}
+
+#cps_contactUs .cp_contactUs .leftSide h4::after 
+{
+    content: "";
+    position: absolute;
+    background-color: #FFB400;
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    bottom: -25px;
+    left: 0px;
+}
+
+#cps_contactUs .cp_contactUs .leftSide input
+{
+    background-color: #fff;
+    width: 100%;
+    height: 53px;
+    border: 1px solid #e5e5e5;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #666666;
+    letter-spacing: 4%;
+    margin-bottom: 20px;
+}
+
+#cps_contactUs .cp_contactUs .leftSide input:focus 
+{
+    outline: none;
+}
+
+#cps_contactUs .cp_contactUs .leftSide textarea
+{
+    background-color: #fff;
+    padding-top: 10px;
+	padding-left: 10px;
+	width: 100%;
+	margin-bottom: 30px;
+    border: 1px solid #e5e5e5;
+    color: #666666;
+    letter-spacing: 4%;
+    font-size: 15px;
+}
+
+#cps_contactUs .cp_contactUs .leftSide textarea:focus 
+{
+    outline: none;
+}
+
+#cps_contactUs .cp_contactUs .leftSide .buttonWrapper
+{
+    text-align: right;
+    padding: 0 0 40px 0;
+}
+
+#cps_contactUs .cp_contactUs .leftSide .buttonWrapper button 
+{
+	background-color: #F7F7F7;
+	color: #2A2A2A;
+	border: 3px solid #2A2A2A;
+	width: 210px;
+	height: 50px;
+	font-size: 22px;
+	border-radius: 5px;	
+}
+
+#cps_contactUs .cp_contactUs .leftSide .buttonWrapper button span 
+{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 10%;
+    line-height: 35px;
+}
+
+#cps_contactUs .cp_contactUs .rightSide
+{
+    background-color: #fff;
+    height: 492px;
+    margin-bottom: 40px;
+}
+
+#cps_contactUs .cp_contactUs .rightSide .itemWrapper
+{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+#cps_contactUs .cp_contactUs .rightSide button
+{
+    border-radius: 0;
+    font-size: 16px;
+    letter-spacing: 4%;
+    color: #000;
+}
+
+#cps_contactUs .cp_contactUs .rightSide button:focus
+{
+    box-shadow: none;
+}
+
+#cps_contactUs .cp_contactUs .rightSide button:not(.collapsed) 
+{
+    background-color: #fff;
+}
+
+#cps_contactUs .cp_contactUs .rightSide button::after
+{
+    background-image: url("/public/images/icons/icon-plus.png");
+}
+
+#cps_contactUs .cp_contactUs .rightSide button:not(.collapsed)::after
+{
+    background-image: url("/public/images/icons/icon-minus.png");
+}
+
+#cps_contactUs .cp_contactUs .rightSide .text
+{
+    font-size: 15px;
+    letter-spacing: 4%;
+    color: #666666;
+}
