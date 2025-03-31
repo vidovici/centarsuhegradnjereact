@@ -1,4 +1,6 @@
+
 import React from "react";
+import { useLocation } from "react-router-dom";
 import './Footer.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,6 +8,10 @@ import { faFacebookF, faLinkedinIn, faXTwitter, faInstagram } from "@fortawesome
 import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
+
+    const location = useLocation();
+    if(location.pathname === "/contact") return null;
+    
     return(
         <footer>
             <div className="container">

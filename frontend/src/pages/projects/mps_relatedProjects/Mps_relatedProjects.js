@@ -37,7 +37,6 @@ const Mps_relatedProjects = ({id}) => {
                         <div class="col buttonWrapper">
                             <a href="/projects" class="fontRubikSemiBold viewAll">View all</a>
                         </div>
-                        <span>Trebaju biti prikazani projekti vezani za projet Id: {id}</span>
                     </div>
                 </div>
             </div>

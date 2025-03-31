@@ -21,13 +21,15 @@ const Project = () => {
         }, []
     );
 
-    if(projects == 0) return (<h1> nema projekata</h1>);
-
     const project = projects.find(p => p.Id == id);
 
-    //console.log("start");
-    //console.log(project);
-    //console.log("end");
+    useEffect(() => {
+        if (project) {
+            document.title = `Projekt: ${project.Title.replace("[#Id]", project.Id)} | Centar suhe gradnje`;
+        }
+    }, [project]);
+
+    if(projects == 0) return (<h1>nema projekata</h1>);
 
     return(
         <>
